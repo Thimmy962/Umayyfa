@@ -18,22 +18,24 @@ const Projects = () => {
             <div className='each-project'>
                         <img src="http://umayyfa.com/images/uscoega.jpg" alt="USCCOEGA" />
                         <div className="project-overlay">
-                            <p>Web design for a University</p>
+                            <h1>USCOEGA School Portal</h1>
+                            <p className='small-overlay'>WEB APPLICATION</p>
                         </div>
             </div>
 
             <div className='each-project each-project2'>
                 <img src="http://umayyfa.com/images/agric_view.jpg" alt="AGRIC" />
                 <div className="project-overlay">
-                    <p>Agricultural Sensitization</p>
+                    <h1>Agric View Project</h1>
+                    <p className='small-overlay'>AGRICULTURAL SERVICES</p>
                 </div>
             </div>
             <div className='each-project each-project3'>
                 <img src="http://umayyfa.com/images/northeast.jpg" alt="NorthEast" />
                 
                 <div className='project-overlay'>
-                    <p className='overlay1'>Magazine</p>
-                    <p className='overlay2'>Magazine Magazine</p>
+                    <h1>North Regional Magazine</h1>
+                    <p className='small-overlay'>PUBLICATION</p>
                 </div>
             </div>
         </div>

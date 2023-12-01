@@ -484,6 +484,12 @@ li {
   text-align: center;
 }
 
+.small-overlay{
+  margin-top: 10px;
+  opacity: .7;
+  font-size: 15px;
+}
+
 #team-member-info {
   display: flex;
   justify-content: center;
