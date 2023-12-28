@@ -18,7 +18,7 @@ const Projects = () => {
             <div className='each-project'>
                         <img src="http://umayyfa.com/images/uscoega.jpg" alt="USCCOEGA" />
                         <div className="project-overlay">
-                            <h1>USCOEGA School Portal</h1>
+                            <h2>USCOEGA School Portal</h2>
                             <p className='small-overlay'>WEB APPLICATION</p>
                         </div>
             </div>
@@ -26,7 +26,7 @@ const Projects = () => {
             <div className='each-project each-project2'>
                 <img src="http://umayyfa.com/images/agric_view.jpg" alt="AGRIC" />
                 <div className="project-overlay">
-                    <h1>Agric View Project</h1>
+                    <h2>Agric View Project</h2>
                     <p className='small-overlay'>AGRICULTURAL SERVICES</p>
                 </div>
             </div>
@@ -34,7 +34,7 @@ const Projects = () => {
                 <img src="http://umayyfa.com/images/northeast.jpg" alt="NorthEast" />
                 
                 <div className='project-overlay'>
-                    <h1>North Regional Magazine</h1>
+                    <h3>North Regional Magazine</h3>
                     <p className='small-overlay'>PUBLICATION</p>
                 </div>
             </div>

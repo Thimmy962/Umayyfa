@@ -1,6 +1,9 @@
 import React from 'react'
 import {BiLogoFacebook, BiLogoInstagram, BiLogoLinkedin} from 'react-icons/bi'
 import {AiOutlineTwitter} from 'react-icons/ai'
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
 const Header = () => {
   return (
@@ -26,7 +29,7 @@ const Header = () => {
 
         <div id="div-2">
             <div id='only-child'>
-                <div id='logo-name'>
+                {/* <div id='logo-name'>
                     <img src="http://umayyfa.com/images/logo.jpg" alt="logo" className='logo'/>
                     <h6>Umayyfa</h6>
                 </div>
@@ -37,7 +40,31 @@ const Header = () => {
                     <li><a className='nav-link' href="#projects">Work</a></li>
                     <li><a className='nav-link' href="#blog">Blog</a></li>
                     <li><a className='nav-link' href="#contact">Contacts</a></li>
-                </ul>
+                </ul> */}
+
+                <Navbar expand="lg" className="bg-body-tertiary" id='navbar-fullwidth'>
+                <Container>
+                    {/* <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand> */}
+                    <Navbar.Brand href="#home">
+                        <div id="logo-name">
+                        <img src="http://umayyfa.com/images/logo.jpg" alt="logo" className='logo'/>
+                        <h6>Umayyfa</h6>
+                        </div>
+                    </Navbar.Brand>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="me-auto">
+                        <Nav.Link href="#home">Home</Nav.Link>
+                        <Nav.Link href="#section-b">Services</Nav.Link>
+                        <Nav.Link href='#what-we-stand-for'>About</Nav.Link>
+                        <Nav.Link href='#projects'>Work</Nav.Link>
+                        <Nav.Link href='#blog'>Blog</Nav.Link>
+                        <Nav.Link href='#contact'>Contacts</Nav.Link>
+
+                    </Nav>
+                    </Navbar.Collapse>
+                </Container>
+                </Navbar>
             </div>
         </div>
     </div>
